@@ -1,0 +1,5 @@
+CRIAR ISO BOOTÁVEL
+Dentro do diretório que contém a imagem .iso, executar:
+# dd if=<imagem.iso> of=/dev/sdb <dispositivo usb que irá armazenar a .iso> status=progress <status irá mostrar o progresso da copia>
+
+Obs.: para formatar o pendrive na instalação, deve-se selecionar a partição do dispositivo externo, nesse caso, /dev/sdb e não o dispositivo conectado /dev/sdb1
